@@ -1,0 +1,38 @@
+html, body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+header #logo{
+    display: flex;
+    align-items: center;
+}
+#logo img{
+    width: 8rem;
+    margin: 1.5em;
+}
+#logo h1{
+    font-size: 0.85rem;
+    font-family: Montserrat, sans-serif;
+    color: black;
+}
+nav a {
+    margin: 0 10px 0 10px;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 0.85rem;
+}
+#mainSection{
+    height: 70vh;
+    background-color: black;
+    background-image: url(IMG\STRUCTURES\mainBG.jpg);
+}
