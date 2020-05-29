@@ -3,6 +3,7 @@ html, body{
     padding: 0;
     box-sizing: border-box;
 }
+
 header{
     height: 80px;
     display: flex;
@@ -32,17 +33,17 @@ nav a {
     font-size: 0.85rem;
 }
 #mainSection{
-    height: 60vh;
+    height: 80vh;
     background-color: black;
     background-image: url(https://github.com/AleLincoln/JustMkt/blob/master/IMG/STRUCTURES/mainBG.jpg?raw=true);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 100px;
+    margin: 0;
 }
 #mainSection h2{
     font-family: Montserrat, sans-serif;
@@ -51,7 +52,7 @@ nav a {
     font-weight: bold;
     font-size: 20px;
 }
-#mainSection span{
+#believe{
     font-size: 80px;
     font-family: Montserrat, sans-serif;
     letter-spacing: 0rem;
@@ -59,6 +60,80 @@ nav a {
 }
 #mainSection p{
     font-family: Montserrat, sans-serif;
-    margin: -20 0 0 0;
     font-size: 20px;
+    margin-top: -20px;
 }
+#contactAnchorSection{
+    width: 95%;
+    height: 20vh;
+    margin:0;
+    background-color: #0c002e;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: skew(25deg);
+    margin-left: -30px;
+}
+#contactAnchorSection p{
+    transform: skew(-25deg);
+}
+#contactAnchorSection span{
+    font-size: 24px;
+    margin-top: -20px;
+    transform: skew(-25deg);
+
+}
+#contactAnchorSection .button{
+    transform: skew(-25deg);
+    font-family: Montserrat, sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-top: 40px;
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    cursor: pointer;
+}
+.button{
+    padding: 10px;
+    background-color: #ffdd09;
+}
+#fourBulletPoints{
+    display: flex;
+}
+#fourBulletPointsTitle{
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    margin-top: 2.5em;
+    font-weight: bold;
+    color: #0c002e;
+}
+.alignBulletPoints{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.alignBulletPoints img{
+    width: 60%;
+}
+.alignBulletPoints h4{
+    font-family: Montserrat, sans-serif;
+    color: #0c002e;
+    font-weight: bold;
+    font-size: 25px;
+    margin-block-start: 0;
+    margin-block-end:0;
+}
+.alignBulletPoints p{
+    font-family: Montserrat, sans-serif;
+    color: #0c002e;
+    text-align: center;
+    font-size: 15px;
+    width: 60%;
+}
+
