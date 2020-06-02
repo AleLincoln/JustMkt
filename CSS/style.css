@@ -180,9 +180,50 @@ nav a {
     top: 30%;
 }
 #separator{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px 0 40px 0;
+   display: flex;
+   justify-content: stretch;
 }
-#aboutUsMain
+#separator img{
+    width: 100%;
+    margin-top: 40px;
+}
+#aboutUsMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    color: #0c002e;
+    font-size: 2rem;
+    margin-top: 40px;
+}
+.secondSeparator{
+    font-size: 40px;
+    font-weight: 1000;
+    color: #0c002e;
+    margin:0;
+}
+#moreInfo{
+    display: flex;
+    font-family: Montserrat, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+}
+#moreInfo p{
+    width: 55%;
+    font-size: 24px;
+    text-align: justify;
+}
+#moreInfoButton{
+    font-family: Montserrat, sans-serif;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    width: 20%;
+    text-align: center;
+    position: relative;
+    right: 20%;
+    
+}
+
