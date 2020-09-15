@@ -2,6 +2,11 @@ html, body{
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Montserrat, sans-serif; ;
+}
+
+.row{
+    display:flex
 }
 
 header{
@@ -50,7 +55,7 @@ nav a {
     width: 60%;
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 2em;
 }
 #believe{
     font-size: 80px;
@@ -225,5 +230,44 @@ nav a {
     position: relative;
     right: 20%;
     
+}
+
+
+
+#testimonial, #testimonialsMainText{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding:40px;
+    text-align: center;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding:40px;
+    background:  #ffdd09;
+}
+footer .row p{
+    margin: 20px;
+    font-family: Montserrat, sans-serif;
+    text-align: right;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+footer .askForBudgetButton{
+    background-color: #0c002e;
+    color: white;
+    padding: 10px;
+    font-family: Montserrat, sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    width:20%;
+    text-align: center;
+    margin: 1em;
 }
 
